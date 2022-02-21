@@ -1355,3 +1355,5 @@ void ordenamiento_por_heapsort(alumno *x, int n,int key){
         heapify(x, i, 0,key);
     }
 }
+
+//d
