@@ -191,6 +191,7 @@ int main(){
                 if(con1==6){
                     system("cls");
                     cri=criterio();
+
                     mostrardatos();
                     for(int i=0;i<=total-1;i++){
                         cout<<"\n";
@@ -1286,6 +1287,10 @@ void selecciondirecta(alumno ALU[],int can,int key){
                 }
 
             }
+
+            ALU[h]=ALU[i];
+            ALU[i]=menor;
+
 
             ALU[h]=ALU[i];
             ALU[i]=menor;
